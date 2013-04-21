@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <head>
+        <title><%= title %></title>
+        <link type='text/css' rel='stylesheet' href='/css/style.css'/>
 
-    <script src=''></script>
-  </body>
+        <script type="text/javascript" src='require.js' data-main="src/main"></script>
+    </head>
+    <body>
+        <div data-bind="controll:app"></div>
+    </body>
 </html>
